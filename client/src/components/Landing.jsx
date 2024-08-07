@@ -17,6 +17,13 @@ const Landing = () => {
     });
   }
 
+  const mail = (msg) => {
+    toast(`Hi there! Mail me at ${msg}`, {
+      icon: '📩',
+      duration: 6000,
+    })
+  }
+
   const handleNavigate = (url) => {
     window.open(url,'_blank');
   };
@@ -25,7 +32,7 @@ const Landing = () => {
     <>
       <Navbar />
       <div className="landing-outer-container">
-        <div>
+        <div className="toast">
           <b>
         <Toaster
           position="top-center"
@@ -63,11 +70,11 @@ const Landing = () => {
                     Mentor, SA
                   </p>
                   <div className="social-media-links">
-                    <div className="media" onClick={() => handleNavigate('mailto:sharon25010@gmail.com')} >
+                    <div className="media" onClick={() => mail("venkatarathnam.v@srmap.edu.in")} >
                       <GoMail size={20} />
                     </div>
                     <div className="media">
-                      <FaDiscord size={20} onClick={() => notify("dave1726")}/>
+                      <FaDiscord size={20} onClick={() => notify("musicteacher1")}/>
                     </div>
                   </div>
                 </div>
@@ -75,7 +82,7 @@ const Landing = () => {
               <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
                 <div className="team-card">
                   <div className="img-wrapper">
-                    <img className="team-img" src="https://drive.google.com/thumbnail?id=1Ve1wHgW3dx4AdMJPDUjL6_NjP-stxJRk&sz=w1000" />
+                    <img className="team-img" src="https://drive.google.com/thumbnail?id=1GqN2lEry0mDZt69U4wO_yevjtD4Jgf2C&sz=w1000" />
                   </div>
                   <p className="text-blk name">
                     Dave
@@ -85,10 +92,10 @@ const Landing = () => {
                   </p>
                   <div className="social-media-links">
                     <div className="media">
-                      <GoMail size={20}/>
+                      <GoMail size={20} onClick={() => mail("davemeshak_j@srmap.edu.in")} />
                     </div>
                     <div className="media">
-                      <FaDiscord size={20} onClick={() => notify("dave1725")}/>
+                      <FaDiscord size={20} onClick={() => notify("_dave1725")}/>
                     </div>
                     <div className="media">
                       <AiOutlineInstagram size={20} onClick={() => handleNavigate("https://instagram.com/_dave_1725")}/>
@@ -109,13 +116,13 @@ const Landing = () => {
                   </p>
                   <div className="social-media-links">
                     <div className="media">
-                      <GoMail size={20}/>
+                      <GoMail size={20} onClick={() => mail("nithyasri_vadapalli@srmap.edu.in")}/>
                     </div>
                     <div className="media">
-                      <FaDiscord size={20}/>
+                      <FaDiscord size={20} onClick={() => notify("nithya1408")}/>
                     </div>
                     <div className="media">
-                      <AiOutlineInstagram size={20}/>
+                      <AiOutlineInstagram size={20} onClick={() => handleNavigate("https://www.instagram.com/philocalist_8145/")} />
                     </div>
                    
                   </div>
@@ -134,13 +141,13 @@ const Landing = () => {
                   </p>
                   <div className="social-media-links">
                     <div className="media">
-                      <GoMail size={20}/>
+                      <GoMail size={20} onClick={() => mail("prasannakumar_katari@srmap.edu.in")}/>
                     </div>
                     <div className="media">
-                      <FaDiscord size={20}/>
+                      <FaDiscord size={20} onClick={() => notify("prassukk")}/>
                     </div>
                     <div className="media">
-                      <AiOutlineInstagram size={20}/>
+                      <AiOutlineInstagram size={20} onClick={() => handleNavigate("https://www.instagram.com/prassu_k.k/")}/>
                     </div>
                   </div>
                 </div>

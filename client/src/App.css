@@ -39,7 +39,7 @@ body {
   color: white;
   font-size: large;
   transition: color 0.4s, transform 0.4s;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 #navigator:hover {
@@ -51,9 +51,14 @@ body {
   width: 50vw;
   margin: 0;
   left: 0;
-  padding-top: 15px;
+  padding-top: 22px;
   padding-left: 45px;
 }
+
+.logo {
+  border-radius: 33px;
+  filter: blur(0.7px);
+} 
 
 .landing-outer-container{
   margin-top: 150px;
@@ -541,3 +546,370 @@ polygon {
   border-radius: 5px;
   margin-top: -20px;
 }
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+
+/* Styles for devices with a maximum width of 600px (e.g., mobile phones) */
+@media (max-width: 600px) {
+  .navbar {
+    height: 80px;
+    padding: 0 5px;
+  }
+
+  .navigations {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #navigator {
+    margin-left: 10px;
+    font-size: medium;
+  }
+
+  .navbar-logo {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  .landing-outer-container {
+    margin-top: 100px;
+    height: 300px;
+  }
+
+  .wrapper {
+    font-size: clamp(1rem, 1rem + 5vw, 10rem);
+    min-height: 40vh;
+  }
+
+  .container-content {
+    font-size: 18px;
+  }
+
+  .team-intro {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  .landing-container-team {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landing-container-team .card {
+    width: 80%;
+    height: auto;
+  }
+
+  .social-media-links {
+    width: 100px;
+  }
+
+  .name, .position {
+    font-size: 20px;
+  }
+
+  .team-card-container {
+    width: 100%;
+  }
+
+  .footer {
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .footer-area {
+    font-size: 16px;
+  }
+
+  .sub-title {
+    width: 100%;
+    margin-top: 0;
+    transform: translateX(0%);
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 50px;
+    margin-top: 20vh;
+  }
+
+  .fame-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Styles for devices with a maximum width of 768px (e.g., tablets) */
+@media (max-width: 768px) {
+  .navbar {
+    height: 90px;
+    padding: 0 10px;
+    width: 90vw;
+    z-index: 9000;
+  }
+
+  .toast {
+    width: 50px;
+  }
+
+  .navigations {
+    display: none; /* Hide the menu by default */
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    width: 89vw;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px 0;
+    background-color: black;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .navigations.active {
+    display: flex; /* Show the menu when active */
+    padding: 10px;
+    margin-left: auto;
+  }
+
+  .menu-toggle {
+    margin-top: 15px;
+    display: flex;
+  }
+
+  #navigator {
+    margin-left: 20px;
+    font-size: medium;
+    font-size: 20px;
+    color: grey;
+  }
+
+  .navbar-logo {
+    margin-top: 5px;
+    padding-left: 20px;
+    height: 20px;
+  }
+
+  .landing-outer-container {
+    margin-top: 120px;
+    height: 350px;
+  }
+
+  .new-card {
+    margin-left: -50px;
+  }
+
+  .team-card {
+    margin-left: -50px;
+  }
+
+  .wrapper {
+    font-size: clamp(1.2rem, 1rem + 7vw, 12rem);
+    font-size: 75px;
+    min-height: 45vh;
+  }
+
+  .container-content {
+    font-size: 18px;
+  }
+
+  .team-intro {
+    margin-top: 290px;
+    margin-bottom: 70px;
+    font-size: 50px;
+  }
+
+  .neon {
+    font-size: 40px;
+  }
+
+  .flux {
+    font-size: 40px;
+  }
+
+  .landing-container-team .card {
+    width: 90%;
+    height: auto;
+  }
+
+  .social-media-links {
+    width: 110px;
+  }
+
+  .name, .position {
+    font-size: 22px;
+  }
+
+  .team-card-container {
+    width: 90%;
+  }
+
+  .footer {
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .footer-area {
+    font-size: 17px;
+  }
+
+  .flux {
+    margin-right: -35px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-title {
+    width: 90%;
+    margin-top: -20px;
+    transform: translateX(5%);
+    font-size: 22px;
+  }
+
+  .text {
+        font-size: 60px;
+        margin-top: 20vh;
+  }
+
+  .text-2 {
+    margin-top: -200px;
+  }
+
+  .text-3 {
+    margin-top: -200px;
+    margin-bottom: -100px;
+  }
+
+  .fame-card {
+    margin-top: -70px;
+    display: grid;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .a-title p {
+    font-size: 35px;
+  }
+
+  .navbar-logo img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* Styles for devices with a minimum width of 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+  .navbar {
+    height: 100px;
+    padding: 0 20px;
+  }
+
+  .navigations {
+    margin-left: 48vw;
+  }
+
+  .navbar-logo {
+    padding-left: 45px;
+  }
+
+  .landing-outer-container {
+    margin-top: 150px;
+    height: 400px;
+  }
+
+  .wrapper {
+    font-size: clamp(1.5rem, 1rem + 10vw, 15rem);
+  }
+
+  .container-content {
+    font-size: 25px;
+  }
+
+  .team-intro {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 30px;
+  }
+
+  .landing-container-team .card {
+    width: 300px;
+    height: 400px;
+  }
+
+  .social-media-links {
+    width: 125px;
+  }
+
+  .name, .position {
+    font-size: 25px;
+  }
+
+  .team-card-container {
+    width: 280px;
+  }
+
+  .footer {
+    height: 100px;
+    margin-top: 100vh + 100px;
+  }
+
+  .footer-area {
+    font-size: 18px;
+  }
+
+  .sub-title {
+    width: 900px;
+    margin-top: -50px;
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 150px;
+    margin-top: calc(50vh - 100px);
+  }
+
+  .fame-card {
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  .info {
+    width: 200px;
+  }
+}
+
+

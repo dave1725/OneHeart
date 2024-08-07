@@ -1,13 +1,12 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import img4 from "../assets/prasanna.jpg";
-
 import { CgMail } from "react-icons/cg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { GoMail } from "react-icons/go";
 import { FaDiscord } from "react-icons/fa6";
 import React from "react";
 import { useRef } from "react";
+import members from "./constants/members";
 
 const Members = () => {
     const scrollRef = useRef(null);
@@ -25,7 +24,7 @@ const Members = () => {
                 <div className="text text-3">Heart</div>
             </div>
             <div className="sub-title">
-                <p>At the heart of the club, there are about 40 singers 🎤 and 20 instrumentalists 🎸🎻 
+                <p>At the heart of the club, there are about 30+ singers 🎤 and 15+ instrumentalists 🎸🎻 
                     performing Western, Eastern, Classical, and Hindustani music!</p>
             </div>
             <div className="content">
@@ -38,19 +37,6 @@ const Members = () => {
             <div ref={scrollRef} className="responsive-container-block outer-container new">
                 <div className="responsive-container-block inner-container">
                     <div className="responsive-container-block">
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src="https://drive.google.com/thumbnail?id=1088JYRKku2ZbhYwLZJwwl1Qpc_0Iy2Fa&sz=w1000" />
-                                </div>
-                                <p className="text-blk name">
-                                    Mr.Venkat
-                                </p>
-                                <p className="text-blk position">
-                                    Western Singer 🎤🎶
-                                </p>
-                            </div>
-                        </div>
                         <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
                             <div className="team-card">
                                 <div className="img-wrapper">
@@ -71,13 +57,14 @@ const Members = () => {
                                     <img className="team-img" src="https://drive.google.com/thumbnail?id=1bf-v0KMMQWg9uGiJjqUd-5aFj8vCHgYA&sz=w1000" alt="None"/>
                                 </div>
                                 <p className="text-blk name">
-                                    Nitya Sri
+                                    Nithya Sri
                                 </p>
                                 <p className="text-blk position">
                                     Est/Classical Singer 🎤
                                 </p>
                             </div>
                         </div>
+
                         <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
                             <div className="team-card">
                                 <div className="img-wrapper">
@@ -87,290 +74,27 @@ const Members = () => {
                                     Prasanna K
                                 </p>
                                 <p className="text-blk position">
-                                    Co-Convenor
+                                    Drummer 🥁
                                 </p>
                             </div>
                         </div>
 
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
+                        {members.map((item, index) => (
+                            <div key={index} className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
+                                <div className="team-card">
+                                    <div className="img-wrapper">
+                                        <img className="team-img" src={item.dp} alt={`Team member ${index}`} />
+                                    </div>
+                                    <p className="text-blk name">
+                                        {item.name}
+                                    </p>
+                                    <p className="text-blk position">
+                                        {item.cat}
+                                    </p>
                                 </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
                             </div>
-                        </div>
+                        ))}
 
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
-                            <div className="team-card">
-                                <div className="img-wrapper">
-                                    <img className="team-img" src={img4} />
-                                </div>
-                                <p className="text-blk name">
-                                    Prasanna K
-                                </p>
-                                <p className="text-blk position">
-                                    Co-Convenor
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

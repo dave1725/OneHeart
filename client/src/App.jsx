@@ -3,6 +3,7 @@ import Landing from './components/Landing';
 import Members from './components/Members';
 import Achievements from './components/Achievements';
 import { Route, Routes } from 'react-router-dom';
+import Classes from "./components/Classes";
 
 function App() {
 
