@@ -19,13 +19,12 @@ const Navbar = () => {
                 <img className="logo" src={Logo} height='60px' width='65px' alt="Logo" />
             </div>
             <div className={`menu-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
-                {isMenuOpen && <span className="close-btn" onClick={toggleMenu}>×</span>}
+                <span className={`bar ${isMenuOpen ? 'bar1' : ''}`}></span>
+                <span className={`bar ${isMenuOpen ? 'bar2' : ''}`}></span>
+                <span className={`bar ${isMenuOpen ? 'bar3' : ''}`}></span>
             </div>
             <div className={`navigations ${isMenuOpen ? 'active' : ''}`}>
-                <NavLink id="navigator" to="/" title='About Us'>About Us</NavLink>
+                <NavLink id="navigator" to="/" title='About Us'>About us</NavLink>
                 <NavLink id="navigator" to="/achievements" title='Achievements'>Achievements</NavLink>
                 <NavLink id="navigator" to="/members" title='Members'>Members</NavLink>
                 <a id="navigator" href={downloadLink} title='Letter of Assurance'>LOA</a>

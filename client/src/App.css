@@ -559,11 +559,12 @@ polygon {
 }
 
 .bar {
-  width: 25px;
+  width: 30px;
   height: 3px;
   background-color: #fff;
   margin: 4px 0;
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 
@@ -922,20 +923,24 @@ polygon {
   }
 }
 
-
-.menu-toggle .close-btn {
-  display: none; /* Initially hidden */
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 24px;
-  color: #333; /* Adjust color as needed */
-  cursor: pointer;
-  padding: 10px;
-  z-index: 1000; /* Ensure it’s on top */
+.bar {
+    transition: 0.3s;
 }
 
-/* Show the close button when the menu is open */
-.menu-toggle.open .close-btn {
-  display: block;
+/* Transform the bars into an 'X' when menu is open */
+.menu-toggle.open .bar1 {
+    transform: rotate(45deg);
+    margin: 8px 0; 
+    border-radius: 5px;
 }
+
+.menu-toggle.open .bar2 {
+    opacity: 0; /* Hide the middle bar */
+}
+
+.menu-toggle.open .bar3 {
+    transform: rotate(-45deg);
+    margin: 0; /* Adjust margins to fit the 'X' */
+    border-radius: 5px;
+}
+
