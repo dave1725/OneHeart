@@ -40,7 +40,7 @@ const Members = () => {
                         <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container new-card">
                             <div className="team-card">
                                 <div className="img-wrapper">
-                                    <img className="team-img" src="https://drive.google.com/thumbnail?id=1Ve1wHgW3dx4AdMJPDUjL6_NjP-stxJRk&sz=w1000" />
+                                    <img className="team-img" src="https://drive.google.com/thumbnail?id=1GqN2lEry0mDZt69U4wO_yevjtD4Jgf2C&sz=w1000" />
                                 </div>
                                 <p className="text-blk name">
                                     Dave

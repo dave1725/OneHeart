@@ -6,9 +6,9 @@ const beta = [
     },
 
     {
-        name:'Adiseshu Dasari',
-        dp:'https://drive.google.com/thumbnail?id=1YhMh25hG45s68hP0t0KO_RwgG8tDNpZg',
-        cat:'Eastern Singer'
+        name:'Rupak',
+        dp:'https://drive.google.com/thumbnail?id=1zdV3aUigK8zFwUaBumWgBFbdef0WN2Kt',
+        cat:'Est/Western Singer 🎤'
     },
     {
         name:'Aditya Kasaudhan',
@@ -16,10 +16,22 @@ const beta = [
         cat:'Eastern singer 🎤'
     },
     {
+        name:'Sriram',
+        dp:'https://drive.google.com/thumbnail?id=12YxDi2Pc0_8SLFwiD5cq7ODNR43lie12&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
         name:'Nafisa',
         dp:'https://drive.google.com/thumbnail?id=1T7q7_m7QEeJNratJSpOHfYd5p1iEhouN&sz=w1000',
         cat:'Est/Western Singer 🎤'
     },
+
+    {
+        name:'Adiseshu Dasari',
+        dp:'https://drive.google.com/thumbnail?id=1YhMh25hG45s68hP0t0KO_RwgG8tDNpZg',
+        cat:'Eastern Singer'
+    },
+    
     {
         name:'Dhruv',
         dp:'https://drive.google.com/thumbnail?id=1iyLmT4POhWbPurRNbpMCMeFhpqyZvmoQ&sz=w1000',
@@ -91,11 +103,7 @@ const beta = [
         dp:'https://drive.google.com/thumbnail?id=1o52rrE9JelJE4eKufxPBoMKV_4U2AMTU&sz=w1000',
         cat:'Est/Western Singer 🎤'
     },
-    {
-        name:'Sriram',
-        dp:'https://drive.google.com/thumbnail?id=12YxDi2Pc0_8SLFwiD5cq7ODNR43lie12&sz=w1000',
-        cat:'Eastern Singer 🎤'
-    },
+    
     {
         name:'Tanmayi',
         dp:'https://drive.google.com/thumbnail?id=1sjZQkbHv-glkHCMmYjFOt5lxtx98fQHp&sz=w1000',

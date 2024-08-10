@@ -916,6 +916,7 @@ polygon {
   .fame-card {
     flex-direction: row;
     gap: 100px;
+    margin-bottom: 100px
   }
 
   .info {
