@@ -27,6 +27,7 @@ body {
 
 .navigations {
   display: flex;
+  position: relative;
   height: 100%;
   width: 100%;
   margin-left: 48vw;
@@ -227,6 +228,10 @@ body {
 
 .outer-container {
   padding-bottom: 10px;
+}
+
+.a-inner-container {
+  z-index: 999;
 }
 
 .inner-container {
@@ -701,10 +706,16 @@ polygon {
     display: flex;
   }
 
+  iframe {
+    z-index: 99999;
+    height: 250px;
+    width: 350px;
+  }
+
   #navigator {
     margin-left: 20px;
     font-size: medium;
-    font-size: 20px;
+    font-size: 25px;
     color: grey;
   }
 
@@ -720,10 +731,6 @@ polygon {
   }
 
   .new-card {
-    margin-left: -50px;
-  }
-
-  .team-card {
     margin-left: -50px;
   }
 
@@ -829,6 +836,9 @@ polygon {
     height: 40px;
     width: 40px;
   }
+  .underline {
+    margin-top: -40px;
+  }
 }
 
 /* Styles for devices with a minimum width of 1024px (e.g., desktops) */
@@ -913,3 +923,19 @@ polygon {
 }
 
 
+.menu-toggle .close-btn {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24px;
+  color: #333; /* Adjust color as needed */
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000; /* Ensure it’s on top */
+}
+
+/* Show the close button when the menu is open */
+.menu-toggle.open .close-btn {
+  display: block;
+}

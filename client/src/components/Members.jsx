@@ -24,7 +24,7 @@ const Members = () => {
                 <div className="text text-3">Heart</div>
             </div>
             <div className="sub-title">
-                <p>At the heart of the club, there are about 30+ singers 🎤 and 15+ instrumentalists 🎸🎻 
+                <p>At the heart of the club, there are about 20+ singers 🎤 and 10+ instrumentalists 🎸🎻 
                     performing Western, Eastern, Classical, and Hindustani music!</p>
             </div>
             <div className="content">

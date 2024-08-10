@@ -26,17 +26,13 @@ const Footer = () => {
                     <div className="media">
                         <AiOutlineInstagram size={25} onClick={() => handleNavigate("https://www.instagram.com/musicclub.srmuap/")}/>
                     </div>
-                    <div className="media">
-                        <FaDiscord size={25} onClick={() => handleNavigate("https://discord.gg/hJPPKrAmDG")}/>
-                    </div>
+                    
                     <div className="media">
                         <GoMail size={25} onClick={() => notify("club.music@srmap.edu.in")}/>
                     </div>
                     </div>
-                    
                 </div>
             </div>
-        
         </>
     );
 }
