@@ -29,7 +29,7 @@ body {
   display: flex;
   position: relative;
   height: 100%;
-  width: 100%;
+  width: 200%;
   margin-left: 48vw;
   align-items: center;
 }
@@ -40,7 +40,7 @@ body {
   color: white;
   font-size: large;
   transition: color 0.4s, transform 0.4s;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 #navigator:hover {
@@ -944,4 +944,5 @@ polygon {
     margin: 0; /* Adjust margins to fit the 'X' */
     border-radius: 5px;
 }
+
 

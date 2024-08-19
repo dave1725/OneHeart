@@ -4,6 +4,7 @@ import { CgMail } from "react-icons/cg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { GoMail } from "react-icons/go";
 import { FaDiscord } from "react-icons/fa6";
+import { FaSoundcloud } from "react-icons/fa6";
 import { Navigate, useNavigate } from "react-router-dom";
 import Footer from "./Footer";
 import toast, { Toaster } from 'react-hot-toast';
