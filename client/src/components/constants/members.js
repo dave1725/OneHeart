@@ -124,6 +124,36 @@ const beta = [
         dp:'https://drive.google.com/thumbnail?id=1OPc5Us09jFqsYMOPh9qXnWVTBfOzZRj2&sz=w1000',
         cat:'Drummer 🥁'
     }, 
+    {
+        name:'Varshini K',
+        dp:'https://drive.google.com/thumbnail?id=1tKKEPQ-cyn5KS4rI_SQuxcQ0ffVzven3&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    }, 
+    {
+        name:'Mohana Lasya',
+        dp:'https://drive.google.com/thumbnail?id=13YNLL0eDFJR280O8Gc1QYj5iu5y9NIIO&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Lynn',
+        dp:'https://drive.google.com/thumbnail?id=18TUrWb7ZnXZm-9YJUQytG47gknk6w0qZ&sz=w1000',
+        cat:'Electric Guitarist 🎸'
+    },
+    {
+        name:'Tanuj',
+        dp:'https://drive.google.com/thumbnail?id=1egclatMqDT0sVYyJ7bUxDL9JF28OpXHa&sz=w1000',
+        cat:'Acoustic Guitarist 🎸'
+    },
+    {
+        name:'Satya',
+        dp:'https://drive.google.com/thumbnail?id=1almxpEToRDHeQx1KEXMl_DEOGf3Fe2mN&sz=w1000',
+        cat:'Keyboardist 🎹'
+    },
+    {
+        name:'Justin Joshua',
+        dp:'https://drive.google.com/thumbnail?id=1amrdn_ITLMFyAUL3lkJwQ4wbhe-vsxnJ&sz=w1000',
+        cat:'Guitarist 🎸'
+    },
 ];
 
 export default beta;

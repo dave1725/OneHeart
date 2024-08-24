@@ -31,7 +31,7 @@ const Navbar = () => {
                 <NavLink id="navigator" to="/" title='About Us'>About us</NavLink>
                 <NavLink id="navigator" to="/achievements" title='Achievements'>Achievements</NavLink>
                 <NavLink id="navigator" to="/members" title='Members'>Members</NavLink>
-                <NavLink id="navigator" onClick={() => handleNavigate('https://forms.gle/RRGSP4Hj8xSS1dYn7')} title='freshers-2024-application'>Freshers'24</NavLink>
+                {/* <NavLink id="navigator" onClick={() => handleNavigate('https://forms.gle/RRGSP4Hj8xSS1dYn7')} title='freshers-2024-application'>Freshers'24</NavLink> */}
                 <a id="navigator" href={downloadLink} title='Letter of Assurance'>LOA</a>
             </div>
         </div>

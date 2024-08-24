@@ -40,7 +40,7 @@ body {
   color: white;
   font-size: large;
   transition: color 0.4s, transform 0.4s;
-  margin-left: 25px;
+  margin-left: 45px;
 }
 
 #navigator:hover {
@@ -570,6 +570,7 @@ polygon {
 
 /* Styles for devices with a maximum width of 600px (e.g., mobile phones) */
 @media (max-width: 600px) {
+
   .navbar {
     height: 80px;
     padding: 0 5px;
@@ -669,6 +670,7 @@ polygon {
 
 /* Styles for devices with a maximum width of 768px (e.g., tablets) */
 @media (max-width: 768px) {
+  
   .navbar {
     height: 90px;
     padding: 0 10px;
@@ -840,6 +842,7 @@ polygon {
   .underline {
     margin-top: -40px;
   }
+  
 }
 
 /* Styles for devices with a minimum width of 1024px (e.g., desktops) */

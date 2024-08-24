@@ -3,6 +3,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { GoMail } from "react-icons/go";
 import { FaDiscord } from "react-icons/fa6";
 import { FaSoundcloud } from "react-icons/fa6";
+import { FaSpotify } from "react-icons/fa";
 import toast, { Toaster } from 'react-hot-toast';
 
 const Footer = () => {
@@ -28,6 +29,9 @@ const Footer = () => {
                         </div>
                         <div className="media">
                             <FaSoundcloud  size={25} onClick={() => handleNavigate("https://soundcloud.com/music-club-867464935")}/>
+                        </div>
+                        <div className="media">
+                            <FaSpotify  size={22} onClick={() => handleNavigate("https://open.spotify.com/user/31vle332tn6honh36lhdvcp4u6sm?si=eaa0487d1d0e40b4")}/>
                         </div>
                         
                         <div className="media">
