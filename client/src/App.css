@@ -337,16 +337,6 @@ body {
   z-index: 1000;
 }
 
-@media (max-width: 500px) {
-  .outer-container {
-    padding: 10px 20px 10px 20px;
-  }
-
-  .section-head-text {
-    text-align: center;
-  }
-}
-
 .footer {
   height: 100px;
   display: flex;
@@ -567,6 +557,140 @@ polygon {
   border-radius: 5px;
 }
 
+/* Styles for devices with a minimum width of 1024px (e.g., desktops) */
+@media (max-width: 1024px) {
+  .navbar {
+    height: 90px;
+    padding: 0 10px;
+    width: 92vw;
+    z-index: 9000;
+  }
+
+  .toast {
+    width: 50px;
+  }
+
+  .navigations {
+    display: none; /* Hide the menu by default */
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    width: 89vw;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px 0;
+    background-color: black;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .navigations.active {
+    display: flex; /* Show the menu when active */
+    padding: 10px;
+    margin-left: auto;
+  }
+
+  .menu-toggle {
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+  }
+
+  .navbar-logo {
+    padding-left: 45px;
+  }
+
+  .landing-outer-container {
+    margin-top: 150px;
+    height: 400px;
+  }
+
+  .wrapper {
+    font-size: clamp(1.5rem, 1rem + 10vw, 15rem);
+  }
+
+  .container-content {
+    font-size: 25px;
+  }
+
+  .team-intro {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 30px;
+  }
+
+  .landing-container-team .card {
+    width: 300px;
+    height: 400px;
+  }
+
+  .social-media-links {
+    width: 125px;
+  }
+
+  .name, .position {
+    font-size: 25px;
+  }
+
+  .team-card-container {
+    width: 280px;
+  }
+
+  .footer {
+    height: 100px;
+    margin-top: 100vh + 100px;
+  }
+
+  .footer-area {
+    font-size: 18px;
+  }
+
+  .sub-title {
+    width: 900px;
+    margin-top: -50px;
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 150px;
+    margin-top: calc(50vh - 100px);
+  }
+
+  .fame-card {
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 100px
+  }
+
+  .info {
+    width: 200px;
+  }
+}
+
+.bar {
+    transition: 0.3s;
+}
+
+/* Transform the bars into an 'X' when menu is open */
+.menu-toggle.open .bar1 {
+    transform: rotate(45deg);
+    margin: 8px 0; 
+    border-radius: 5px;
+}
+
+.menu-toggle.open .bar2 {
+    opacity: 0; /* Hide the middle bar */
+}
+
+.menu-toggle.open .bar3 {
+    transform: rotate(-45deg);
+    margin: 0; /* Adjust margins to fit the 'X' */
+    border-radius: 5px;
+}
+
+
 
 /* Styles for devices with a maximum width of 600px (e.g., mobile phones) */
 @media (max-width: 600px) {
@@ -712,7 +836,7 @@ polygon {
   iframe {
     z-index: 99999;
     height: 250px;
-    width: 350px;
+    width: 320px;
   }
 
   #navigator {
@@ -733,18 +857,16 @@ polygon {
     height: 350px;
   }
 
-  .team-card {
-    margin-left: -40px;
-  }
+ 
 
   .wrapper {
-    font-size: clamp(1.2rem, 1rem + 7vw, 12rem);
-    font-size: 75px;
+    /* font-size: clamp(1.2rem, 1rem + 7vw, 12rem); */
+    font-size: 62px;
     min-height: 45vh;
   }
 
   .container-content {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .team-intro {
@@ -762,7 +884,7 @@ polygon {
   }
 
   .landing-container-team .card {
-    width: 90%;
+    width: 80%;
     height: auto;
   }
 
@@ -839,113 +961,9 @@ polygon {
     height: 40px;
     width: 40px;
   }
-  .underline {
-    margin-top: -40px;
-  }
   
 }
 
-/* Styles for devices with a minimum width of 1024px (e.g., desktops) */
-@media (min-width: 1024px) {
-  .navbar {
-    height: 100px;
-    padding: 0 20px;
-  }
 
-  .navigations {
-    margin-left: 48vw;
-  }
-
-  .navbar-logo {
-    padding-left: 45px;
-  }
-
-  .landing-outer-container {
-    margin-top: 150px;
-    height: 400px;
-  }
-
-  .wrapper {
-    font-size: clamp(1.5rem, 1rem + 10vw, 15rem);
-  }
-
-  .container-content {
-    font-size: 25px;
-  }
-
-  .team-intro {
-    margin-top: 200px;
-    margin-bottom: 100px;
-    font-size: 30px;
-  }
-
-  .landing-container-team .card {
-    width: 300px;
-    height: 400px;
-  }
-
-  .social-media-links {
-    width: 125px;
-  }
-
-  .name, .position {
-    font-size: 25px;
-  }
-
-  .team-card-container {
-    width: 280px;
-  }
-
-  .footer {
-    height: 100px;
-    margin-top: 100vh + 100px;
-  }
-
-  .footer-area {
-    font-size: 18px;
-  }
-
-  .sub-title {
-    width: 900px;
-    margin-top: -50px;
-    font-size: 30px;
-  }
-
-  .text {
-    font-size: 150px;
-    margin-top: calc(50vh - 100px);
-  }
-
-  .fame-card {
-    flex-direction: row;
-    gap: 100px;
-    margin-bottom: 100px
-  }
-
-  .info {
-    width: 200px;
-  }
-}
-
-.bar {
-    transition: 0.3s;
-}
-
-/* Transform the bars into an 'X' when menu is open */
-.menu-toggle.open .bar1 {
-    transform: rotate(45deg);
-    margin: 8px 0; 
-    border-radius: 5px;
-}
-
-.menu-toggle.open .bar2 {
-    opacity: 0; /* Hide the middle bar */
-}
-
-.menu-toggle.open .bar3 {
-    transform: rotate(-45deg);
-    margin: 0; /* Adjust margins to fit the 'X' */
-    border-radius: 5px;
-}
 
 
