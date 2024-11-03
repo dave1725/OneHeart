@@ -25,7 +25,7 @@ const Footer = () => {
                     Copyright @OneHeart 2024<br></br>
                     <div className="footer-links">
                         <div className="media">
-                            <AiOutlineInstagram size={25} onClick={() => handleNavigate("https://www.instagram.com/musicclub.srmuap/")}/>
+                            <AiOutlineInstagram size={25} onClick={() => handleNavigate("https://www.instagram.com/oneheart.srmuap/")}/>
                         </div>
                         <div className="media">
                             <FaSoundcloud  size={25} onClick={() => handleNavigate("https://soundcloud.com/music-club-867464935")}/>
@@ -37,7 +37,6 @@ const Footer = () => {
                         <div className="media">
                             <GoMail size={25} onClick={() => notify("club.music@srmap.edu.in")}/>
                         </div>
-                    
                     </div>
                 </div>
             </div>

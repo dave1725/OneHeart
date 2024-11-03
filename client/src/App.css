@@ -48,6 +48,14 @@ body {
   transform: translateY(4px);
 }
 
+.logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 14px; /* Rounded corners */
+  background-color: rgb(120, 6, 6); /* Dark red logo color */
+  animation: glow 1.5s infinite alternate; /* Animation for glowing effect */
+}
+
 .navbar-logo {
   width: 50vw;
   margin: 0;
@@ -58,7 +66,7 @@ body {
 
 .logo {
   border-radius: 33px;
-  filter: blur(0.7px);
+  filter: blur(0.5px);
 } 
 
 .landing-outer-container{
@@ -851,13 +859,12 @@ polygon {
     padding-left: 20px;
     height: 20px;
   }
+  
 
   .landing-outer-container {
     margin-top: 120px;
     height: 350px;
   }
-
- 
 
   .wrapper {
     /* font-size: clamp(1.2rem, 1rem + 7vw, 12rem); */
@@ -870,7 +877,7 @@ polygon {
   }
 
   .team-intro {
-    margin-top: 290px;
+    margin-top: 410px;
     margin-bottom: 70px;
     font-size: 50px;
   }
@@ -903,7 +910,7 @@ polygon {
   .footer {
     height: auto;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 90px;
   }
 
   .footer-area {

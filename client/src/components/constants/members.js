@@ -154,6 +154,95 @@ const beta = [
         dp:'https://drive.google.com/thumbnail?id=1amrdn_ITLMFyAUL3lkJwQ4wbhe-vsxnJ&sz=w1000',
         cat:'Guitarist 🎸'
     },
+
+    {
+        name:'Abrar UL',
+        dp:'https://drive.google.com/thumbnail?id=1hPkzzs-d81eVrXADGUHk2JnxadweLDiL&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Sri Medha',
+        dp:'https://drive.google.com/thumbnail?id=1DtDO2lzHAMHpf0CK6GFkskMQRLMUjXXN&sz=w1000',
+        cat:'Western Singer 🎤'
+    },
+    {
+        name:'Bidit Giri',
+        dp:'https://drive.google.com/thumbnail?id=1Ab7nh8XHgwS5itaRj4yvk8yu8LFP3ng6&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Srinjoy',
+        dp:'https://drive.google.com/thumbnail?id=1FK6-dCChX3hrQwTLW8ONs8srA4B082gk&sz=w1000',
+        cat:'Bass Guitarist 🎸'
+    },
+
+    {
+        name:'Jarath Karuni',
+        dp:'https://drive.google.com/thumbnail?id=17AZwJuoj0IlcNe9LAl_l1ueE8gEBwpNo&sz=w1000',
+        cat:'Est/Western Singer 🎤'
+    },
+    {
+        name:'Ipsa',
+        dp:'https://drive.google.com/thumbnail?id=1ZWKeH84RdLxhc3xbtkIczmsezpzlh9XQ&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Nandha Nivas',
+        dp:'https://drive.google.com/thumbnail?id=1EaVsEfSkzo2BsHR-egh12G-ibXO_ZDAH&sz=w1000',
+        cat:'Whistler 🎶'
+    },
+    {
+        name:'Shreeanshi Rath',
+        dp:'https://drive.google.com/thumbnail?id=1tytT9Co2jnRQHvsQ-7C8ZAcpj53XzFZe&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Sankalp Tiwari',
+        dp:'https://drive.google.com/thumbnail?id=1XUQ9C8gb_Tz4U7RwaQC6130khFyWGG-d&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+
+    {
+        name:'Murali Manohar',
+        dp:'https://drive.google.com/thumbnail?id=1AzDSC-YC81gHAhi3opcwhQ7m43yG_jLz&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Rineeka',
+        dp:'https://drive.google.com/thumbnail?id=1W2XeVoNEaITUMg_Kxw_dLrEbe0MXV8b1&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Nihal',
+        dp:'https://drive.google.com/thumbnail?id=17QZB7HJc0HQ8kb_FkSW2BVEsM0J95pA5&sz=w1000',
+        cat:'Est/Western Singer 🎤'
+    },
+    {
+        name:'Sruthi',
+        dp:'https://drive.google.com/thumbnail?id=1GdPj4osxIypWUVxV2Z9QrJtQnpZTHKae&sz=w1000',
+        cat:'Est/Western Singer 🎤'
+    },
+
+    {
+        name:'Tejasvi',
+        dp:'https://drive.google.com/thumbnail?id=13Pn1BZEnFPhopYh8EUur7-KW6sw9ysaE&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Annapoorneshwari',
+        dp:'https://drive.google.com/thumbnail?id=1s3bgvjsIGztbZ5_q7U8mVymSEQeolpdh&sz=w1000',
+        cat:'Eastern Singer 🎤'
+    },
+    {
+        name:'Sadia',
+        dp:'https://drive.google.com/thumbnail?id=1CWNXjV68Wrd9HzY-VOCmKALnu621WgfF&sz=w1000',
+        cat:'Est/Western Singer 🎤'
+    },
+    {
+        name:'Bhagyasree',
+        dp:'https://drive.google.com/thumbnail?id=1qsJnjY_p_hPShEJV1CvrGR6er_7synS7&sz=w1000',
+        cat:'Est/Western Singer 🎤'
+    },
 ];
 
 export default beta;
